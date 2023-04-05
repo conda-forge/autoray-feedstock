@@ -18,11 +18,12 @@ build:
 
 requirements:
   host:
+    - python >=3.8
+    - setuptools >=42
+    - setuptools-scm >=7
     - pip
-    - python >=3.5
   run:
-    - numpy
-    - python >=3.5
+    - python >=3.8
 
 test:
   imports:
@@ -34,7 +35,7 @@ test:
 
 about:
   home: https://github.com/jcmgray/autoray/
-  summary: Write backend agnostic numeric code compatible with any numpy-ish array library.
+  summary: Abstract your array operations.
   license: Apache-2.0
   license_file: LICENSE
   license_family: Apache
