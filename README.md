@@ -7,7 +7,7 @@ Home: https://github.com/jcmgray/autoray/
 
 Package license: Apache-2.0
 
-Summary: Write backend agnostic numeric code compatible with any numpy-ish array library.
+Summary: Abstract your array operations.
 
 Current build status
 ====================
