@@ -1,6 +1,6 @@
 {% set name = "autoray" %}
-{% set version = "0.6.3" %}
-{% set sha256 = "6729f49c8787778fd8bc2a3b57a625c8c21577c6e92628cad4b13aefd7531355" %}
+{% set version = "0.6.6" %}
+{% set sha256 = "a31cd03f983a6e80b58f40618a652b7979fa09c762050f5dc4b7e6b6a0a3b62d" %}
 
 
 package:
@@ -12,7 +12,7 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 1
+  number: 0
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
 
