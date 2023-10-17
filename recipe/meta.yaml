@@ -1,6 +1,6 @@
 {% set name = "autoray" %}
-{% set version = "0.6.6" %}
-{% set sha256 = "a31cd03f983a6e80b58f40618a652b7979fa09c762050f5dc4b7e6b6a0a3b62d" %}
+{% set version = "0.6.7" %}
+{% set sha256 = "8945cfdf3aa8a35f9fe1abc03d84925db61f58bbd386623206dd8e9ba1d9e377" %}
 
 
 package:
@@ -34,8 +34,9 @@ test:
     - pip
 
 about:
-  home: https://github.com/jcmgray/autoray/
+  home: https://autoray.readthedocs.io
   summary: Abstract your array operations.
+  dev_url: https://github.com/jcmgray/autoray/
   license: Apache-2.0
   license_file: LICENSE
   license_family: Apache
