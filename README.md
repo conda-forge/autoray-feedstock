@@ -3,11 +3,13 @@ About autoray-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/autoray-feedstock/blob/main/LICENSE.txt)
 
-Home: https://github.com/jcmgray/autoray/
+Home: https://autoray.readthedocs.io
 
 Package license: Apache-2.0
 
 Summary: Abstract your array operations.
+
+Development: https://github.com/jcmgray/autoray/
 
 Current build status
 ====================
