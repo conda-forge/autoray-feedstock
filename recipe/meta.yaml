@@ -1,6 +1,6 @@
 {% set name = "autoray" %}
-{% set version = "0.8.3" %}
-{% set sha256 = "aff10b1f79778ea9f678df828f02b9c5c19c6f4e5b5b3095d9885bb41cd1da9d" %}
+{% set version = "0.8.4" %}
+{% set sha256 = "b4ce7066334279b216431a260bb5b5b84d87815e3295020a76d8701e43dc3432" %}
 
 
 package:
