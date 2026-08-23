@@ -1,6 +1,6 @@
 {% set name = "autoray" %}
-{% set version = "0.10.1" %}
-{% set sha256 = "b158904f410757f326d825e57b36c10af0e59b8304de72127b4d0406004874f5" %}
+{% set version = "0.11.0" %}
+{% set sha256 = "ef9c23d8307f2e5030d10dd222d304401450157172a6fcc6f7456b6e82681bf4" %}
 {% set python_min = "3.11" %}
 
 package:
@@ -8,7 +8,7 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
   sha256: {{ sha256 }}
 
 build:
